@@ -20,27 +20,27 @@ const Narbar = () => {
            </a>
             </div>
             <div className='hidden md:flex space-x-10'>
-                <a href='#home' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+                <a href='/home' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Home</span>
                <span className='absolute left-0 -bottom-1 width-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
                </a>
              
-              <a href='#about' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+              <a href='/about' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>About</span>
                <span className='absolute left-0 -bottom-1 width-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
                </a>
 
-               <a href='#skills' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <a href='/skills' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Skills</span>
                <span className='absolute left-0 -bottom-1 width-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
                </a>
 
-               <a href='#projects' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <a href='/projects' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Projects</span>
                <span className='absolute left-0 -bottom-1 width-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
                </a>
 
-               <a href='#contact' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <a href='/contact' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Contact</span>
                <span className='absolute left-0 -bottom-1 width-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
                </a>
@@ -60,23 +60,23 @@ const Narbar = () => {
             {/* Mobile menus */}
             {showMenu && (
               <div className='md:hidden mt-4 dark:bg-dark-300  bg-white/40 text-black/50 max-h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-center items-center'>
-                 <a href='#home' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+                 <a href='/home' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Home</span>
                </a>
              
-              <a href='#about' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+              <a href='/about' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>About</span>
                 </a>
 
-               <a href='#skills' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <a href='/skills' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Skills</span>
               </a>
 
-               <a href='#projects' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <a href='/projects' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Projects</span>
                </a>
 
-               <a href='#contact' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <a href='/contact' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Contact</span>
               </a>
                <ThemeToggle /> 

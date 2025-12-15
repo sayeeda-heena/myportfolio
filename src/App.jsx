@@ -1,24 +1,16 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { HashRouter as Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Navbar from './component/Narbar'
 
 
 function App() {
-  
-  return (
+   return (
     <div>
-      
       <Navbar />
-      
-      <Routes>
+       <Routes>
         <Route path='/' element={<Home /> } />
-
-
-        
-
       </Routes>
-    
     </div>
   )
 }
