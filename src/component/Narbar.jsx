@@ -62,25 +62,25 @@ const Narbar = () => {
             {/* Mobile menus */}
             {showMenu && (
               <div className='md:hidden mt-4 dark:bg-dark-300  bg-white/40 text-black/50 max-h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-center items-center'>
-                 <a href='#home' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+                 <Link to='/' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Home</span>
-               </a>
+               </Link>
              
-              <a href='#about' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+              <Link to='/about' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>About</span>
-                </a>
+                </Link>
 
-               <a href='#skills' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <Link to='/skills' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Skills</span>
-              </a>
+              </Link>
 
-               <a href='#projects' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <Link to='/projects' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Projects</span>
-               </a>
+               </Link>
 
-               <a href='#contact' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <Link to='/contact' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Contact</span>
-              </a>
+              </Link>
                <ThemeToggle /> 
               </div> 
             )}
