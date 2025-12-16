@@ -22,7 +22,7 @@ const Narbar = () => {
            </a>
             </div>
             <div className='hidden md:flex space-x-10'>
-                <Link to='/hero'  className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+                <Link to='/'  className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Home</span>
                <span className='absolute left-0 -bottom-1 width-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
                </Link>
