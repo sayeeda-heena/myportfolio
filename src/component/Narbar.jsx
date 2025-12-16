@@ -62,23 +62,23 @@ const Narbar = () => {
             {/* Mobile menus */}
             {showMenu && (
               <div className='md:hidden mt-4 dark:bg-dark-300  bg-white/40 text-black/50 max-h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-center items-center'>
-                 <Link to='/' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+                 <Link to='/' onClick={() => setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Home</span>
                </Link>
              
-              <Link to='/about' onClick={() =>setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+              <Link to='/about'onClick={() => setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>About</span>
                 </Link>
 
-               <Link to='/skills' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <Link to='/skills' onClick={() => setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Skills</span>
               </Link>
 
-               <Link to='/projects' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <Link to='/projects' onClick={() => setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Projects</span>
                </Link>
 
-               <Link to='/contact' className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
+               <Link to='/contact' onClick={() => setShowMenu(!showMenu)} className='relative dark:text-white/80 transition duration-300 hover:text-purple group'>
                <span>Contact</span>
               </Link>
                <ThemeToggle /> 
