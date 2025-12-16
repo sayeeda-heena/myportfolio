@@ -9,7 +9,7 @@ const Hero = () => {
     whileInView={{opacity:1, y:0}}
     transition={{duration:0.6, ease: 'easeOut' }}
     viewport={{once: true}}
-    id= 'home'
+    
     className='min-h-screen flex items-center pt-20 pb-16  dark:bg-gradient-to-r dark:from-[#1a1a1a] dark:via-[#2d2d2d] dark:to-[#1a1a1a] dark:text-gray-300'>
       
       <div className='container mx-auto px-6 flex flex-col md:flex-row items-center justify-between '>

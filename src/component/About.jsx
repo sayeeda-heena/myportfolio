@@ -9,7 +9,7 @@ const About = () => {
     whileInView={{opacity:1, y:0}}
     transition={{duration:0.6, ease: 'easeOut' }}
     viewport={{once: true}}
-    id='about'
+    
     className='py-20 dark:bg-dark-200 dark:text-white'>
         <div className='container mx-auto px-4'>
             {/* Heading */}
